@@ -50,8 +50,8 @@ log.fatal('app', 'spaghetti monster ate us')
 
 Use for debugging, not saved to `.log`'s, hidden if `NODE_ENV === 'PRODUCTION'`.
 
-### `log.[level](scope, message)`
-Where `level` can be one of the following:
+### `log.[level]([scope], message)`
+Where `scope` is optional and `level` can be one of the following:
 * `info` - not the most important information
 * `warn` - things might be going funky
 * `error` - bad, but doesn't crash
