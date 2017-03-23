@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "tiny logging utility",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nikersify/log.git"
